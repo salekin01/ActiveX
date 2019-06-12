@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveX", "ActiveX\ActiveX.csproj", "{0F112813-D987-4A12-B5F2-1A7316C39315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveXMethodCalling", "ActiveXMethodCalling\ActiveXMethodCalling.csproj", "{8D71B77A-AF57-43B7-B990-5F0FF38BB1E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F112813-D987-4A12-B5F2-1A7316C39315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F112813-D987-4A12-B5F2-1A7316C39315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F112813-D987-4A12-B5F2-1A7316C39315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F112813-D987-4A12-B5F2-1A7316C39315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D71B77A-AF57-43B7-B990-5F0FF38BB1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D71B77A-AF57-43B7-B990-5F0FF38BB1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D71B77A-AF57-43B7-B990-5F0FF38BB1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D71B77A-AF57-43B7-B990-5F0FF38BB1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

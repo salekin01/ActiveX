@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "ActiveX";
+}
+
+<h2>ActiveX</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input id="Button1" onclick="RunEXE()" type="button" value="ActiveX File Calling" class="btn btn-default" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input id="Button2" onclick="RunProcessDLL()" type="button" value="ActiveX Method Calling" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+}
+
+<script language="javascript" type="text/javascript">
+    function RunEXE() {
+        var oShell = new ActiveXObject("WScript.Shell");
+        var prog = "C:\\Notepad.txt";
+        oShell.Run('"' + prog + '"', 1);
+    }
+
+    function RunProcessDLL() {
+        var x = new ActiveXObject("ActiveXMethodCalling.ActiveXClass");
+        alert(x.Name());
+    }
+</script>
+
